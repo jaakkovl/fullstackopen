@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Display from './components/Display'
 import axios from 'axios'
-import Weather from './components/Weather'
 
 const App = () => {
   const [search, setSearch] = useState('')
